@@ -8,4 +8,4 @@ WORKDIR /var/www
 RUN npm install
 
 VOLUME [ "/var/www" ]
-ENTRYPOINT [ "npm", "start" ]
+CMD [ "npm", "start" ]
